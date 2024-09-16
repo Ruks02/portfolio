@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: Open Sans;
+}
+
+/* header and navigation styles */
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.text-color {
+    color: rgb(253, 110, 10);
+}
+
+nav h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    background-color: rgb(253, 110, 10);
+    border: 0;
+    color: rgb(255, 255, 255);
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+/* header banner style */
+.header {
+    background: rgb(255, 248, 243);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.banner {
+    display: flex;
+    margin: 0 200px;
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    width: 585px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.banner-btn-cv {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    width: 200px;
+    height: 64px;
+    padding: 19px 17px 18px 51px;
+    border: 0;
+}
+
+.banner-btn-contact {
+    color: rgb(253, 110, 10);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(253, 110, 10);
+    width: 160px;
+    height: 64px;
+    padding: 19px 23px 18px 58px;
+
+}
+
+.about {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    margin-top: 130px;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 130px 156px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+}
+.section-description {
+    margin-top: 78px;
+    margin-bottom: 90px;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+line-height: 30px;
+font-size: 18px;
+}
