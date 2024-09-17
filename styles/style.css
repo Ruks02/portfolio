@@ -52,7 +52,9 @@ nav h2 {
     display: flex;
     margin: 0 200px;
 }
-
+.banner-content{
+    max-width: 500px;
+}
 .banner-sub-title {
     font-size: 45px;
     font-weight: 600;
