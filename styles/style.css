@@ -112,6 +112,7 @@ nav h2 {
     font-weight: 700;
     color: rgb(24, 24, 24);
     margin-top: 130px;
+    margin-bottom: 130px;
     border-radius: 10px;
     background-color: rgb(255, 248, 243);
     padding: 130px 156px;
@@ -129,6 +130,7 @@ main {
 .about-info-container {
     display: flex;
     justify-content: space-around;
+    margin: 30px 0px;
     
 }
 
@@ -172,4 +174,7 @@ main {
     text-align: center;
     width: 827px;
     height: 120px;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
