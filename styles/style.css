@@ -175,6 +175,13 @@ main {
     width: 827px;
     height: 120px;
 }
+/* Whai i do styles HERE!!! */
 #what-i-do-description{
     padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
+.skill-description{
+    padding: 151px 33px 30px 33px;
 }
